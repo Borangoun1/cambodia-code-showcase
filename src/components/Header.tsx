@@ -59,7 +59,7 @@ export function Header() {
   }, []);
 
   return (
-    <header 
+    <header
       className={`fixed top-0 left-0 w-full z-40 transition-all duration-300 ${
         scrolled 
           ? "bg-white/90 dark:bg-slate-900/90 backdrop-blur-md shadow-sm" 
@@ -68,7 +68,7 @@ export function Header() {
     >
       <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-primary">
-          ម៉ី សុវណ្ណាវីស្នេហា <!-- Mi Sovannary Snaeha (placeholder name) -->
+          ម៉ី សុវណ្ណាវីស្នេហា {/* Mi Sovannary Snaeha (placeholder name) */}
         </a>
         
         {/* Desktop Navigation */}
